@@ -18,6 +18,7 @@ if ($NbreData != 0)
 	$l = 0;
 
 ?>
+
 	<table border="1">
 	<tbody>
 			<?php	for ($i=1; $i<=$NbrLigne; $i++)
