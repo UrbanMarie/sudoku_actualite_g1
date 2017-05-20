@@ -34,14 +34,12 @@
 
 $grand_tableau = [];
 $ligne01 = array( "l1"=> "");
-
 $numbers = range(1, 9);
 shuffle($numbers);
 foreach ($numbers as $number) {
     $ligne01['l1'] .= $number ;
 }
 print_r($ligne01);
-
 
 // $grandtableau=array(
 //     $petittableau=array()
