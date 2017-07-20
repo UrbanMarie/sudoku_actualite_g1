@@ -1,0 +1,88 @@
+<?php
+
+
+$grand_tableau = [];
+$tableau1 = array( "t1"=> "");
+$tableau2 = array( "t2"=> "");
+$tableau3 = array( "t3"=> "");
+$tableau4 = array( "t4"=> "");
+$tableau5 = array( "t5"=> "");
+$tableau6 = array( "t6"=> "");
+$tableau7 = array( "t7"=> "");
+$tableau8 = array( "t8"=> "");
+$tableau9 = array( "t9"=> "");
+$numbers = range(1, 9);
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t1'] .= $number ;
+}
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t2'] .= $number ;
+}
+
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t3'] .= $number ;
+}
+
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t4'] .= $number ;
+}
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t5'] .= $number ;
+}
+
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t6'] .= $number ;
+}
+
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t7'] .= $number ;
+}
+
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t8'] .= $number ;
+}
+
+shuffle($numbers);
+foreach ($numbers as $number) {
+    $tableau1['t9'] .= $number ;
+}
+print_r($tableau1);
+
+
+
+
+//print_r($grandtableau);
+
+// $tableau1= array("t1"=>"");
+// $tableau2= array("t2"=>"");
+// $tableau3= array("t3"=>"");
+// $tableau4= array("t4"=>"");
+// $tableau5= array("t5"=>"");
+// $tableau6= array("t6"=>"");
+// $tableau7= array("t7"=>"");
+// $tableau8= array("t8"=>"");
+// $tableau9= array("t9"=>"");
+//
+// $grand_tableau = array("t1"=>"",
+//                         "t2"=>"",
+//                         "t3"=>"",
+//                         "t4"=>"",
+//                         "t5"=>"",
+//                         "t6"=>"",
+//                         "t7"=>"",
+//                         "t8"=>"",
+//                         "t9"=>"");
+// // $numbers= range(1,9);
+// // shuffle($numbers);
+// // foreach ($numbers as $number) {
+// // $grand_tableau[["t1"],["t2"],["t3"],["t4"],["t5"],["t6"],["t7"],["t8"],["t9"]].=$number;
+// // }
+// print_r($grand_tableau);

@@ -1,6 +1,6 @@
 <?php
 
-$tableau1 = array( "t1"=> "");
+$tableau1 = array();
 $tableau2 = array( "t2"=> "");
 $tableau3 = array( "t3"=> "");
 $tableau4 = array( "t4"=> "");
@@ -14,9 +14,10 @@ $numbers = range(1, 9);
 
 shuffle($numbers);
 foreach ($numbers as $number) {
-    $tableau1['t1'] .= $number ;
-
+    print_r($number);
+    $number = $tableau1;
 }
+
 shuffle($numbers);
 foreach ($numbers as $number) {
     $tableau2['t2'] .= $number ;
@@ -56,14 +57,14 @@ foreach ($numbers as $number) {
     $tableau9['t9'] .= $number ;
 }
 print_r($tableau1);
-print_r($tableau2);
-print_r($tableau3);
-print_r($tableau4);
-print_r($tableau5);
-print_r($tableau6);
-print_r($tableau7);
-print_r($tableau8);
-print_r($tableau9);
+// print_r($tableau2);
+// print_r($tableau3);
+// print_r($tableau4);
+// print_r($tableau5);
+// print_r($tableau6);
+// print_r($tableau7);
+// print_r($tableau8);
+// print_r($tableau9);
 
 
 // $grand_tableau = array( $tableau1,
